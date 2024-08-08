@@ -75,6 +75,7 @@
   .linkedin-button:hover {
     background-color: #0077B5; /* Color más oscuro al hacer hover */
     transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
+    color: aliceblue;
   }
   
   .linkedin-logo {
@@ -111,6 +112,7 @@
   .whatsapp-button:hover {
     background-color: #00a895; /* Color más oscuro al hacer hover */
     transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
+    color: aliceblue;
   }
   
   .whatsapp-logo {

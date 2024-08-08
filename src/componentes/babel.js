@@ -57,3 +57,4 @@ CTRL.add(CONFIG, 'vertical').name('Vertical Layout').onChange(RESTYLE)
 
 RESTYLE()
 UPDATE()
+

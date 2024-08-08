@@ -769,3 +769,15 @@ margin-left: -150px;
 .fade-in-section.visible {
   opacity: 1;
 }
+
+html, body {
+  overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+  overflow-y: scroll; /* Permite el desplazamiento vertical */
+
+  /* Oculta la barra de desplazamiento vertical */
+  scrollbar-width: none; /* Para Firefox */
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none; /* Oculta la barra de desplazamiento vertical en Chrome, Safari, Edge */
+}

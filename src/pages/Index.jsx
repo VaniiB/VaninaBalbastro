@@ -30,8 +30,6 @@ import gradientFondo2 from '../recursos/img-index/gradiantes 2.png';
 import gradientFondo3 from '../recursos/img-index/Gradient.png';
 import gradientFondo4 from '../recursos/img-index/Gradient.png';
 
-
-
 const projects = [
   { id: 2, title: "Breta", subtitle: "Breta", image: bretaImage, languages: ["react", "nodejs", "mongodb"], link: "/proyecto2" },
   { id: 13, title: "Aurora", subtitle: "Aurora", image: auroraImage, languages: ["react", "nodejs", "mongodb"], link: "/proyecto2" },
@@ -171,6 +169,17 @@ export const Index = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const disableRightClick = (event) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', disableRightClick);
+
+    return () => {
+      document.removeEventListener('contextmenu', disableRightClick);
+    };
+  }, []);
   return (
     <div className="index">
       <div className="title">
