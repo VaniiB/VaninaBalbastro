@@ -1,0 +1,149 @@
+.contactame {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 500;
+  }
+  
+  
+  .lista-para{
+    font-family: 'Questrial', sans-serif;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 500;
+  }
+  
+  .ultimo-titulo {
+    margin-top: 300px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .linkedin {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.822);
+    font-weight: 600;
+    margin-top: 70px;
+    letter-spacing: 2px;
+  }
+  
+  .nombre {
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.822);
+  
+  }
+  
+  
+  
+  .link1 {
+    text-align: center;
+    margin-left: -700px;
+    margin-bottom: -380px;
+  
+  }
+  
+  
+  .linkedin-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0077b5; /* Color azul de LinkedIn */
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px; /* Tamaño de la fuente ajustado */
+    font-weight: 600;
+    padding: 10px 20px; /* Espaciado interno del botón ajustado */
+    border: none;
+    border-radius: 25px; /* Radio de bordes ajustado */
+    cursor: pointer;
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 999; /* Traer el botón al frente */
+    position: relative; /* Necesario para que z-index funcione */
+    width: auto; /* Asegúrate de que el ancho sea automático */
+    max-width: 200px; /* Tamaño máximo del botón */
+    margin-left: 1200px;
+}
+
+  
+  .linkedin-button:hover {
+    background-color: #0077B5; /* Color más oscuro al hacer hover */
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
+  }
+  
+  .linkedin-logo {
+    width: 28px; /* Tamaño del logo */
+    height: 28px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  .whatsapp-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366; /* Color verde de WhatsApp */
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px; /* Tamaño de la fuente ajustado */
+    font-weight: 600;
+    padding: 10px 20px; /* Espaciado interno del botón ajustado */
+    border: none;
+    border-radius: 25px; /* Radio de bordes ajustado */
+    cursor: pointer;
+    letter-spacing: 1px; /* Espaciado entre letras */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 999; /* Traer el botón al frente */
+    position: relative; /* Necesario para que z-index funcione */
+    width: auto; /* Asegúrate de que el ancho sea automático */
+    max-width: 200px; /* Tamaño máximo del botón */
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+  
+  .whatsapp-button:hover {
+    background-color: #00a895; /* Color más oscuro al hacer hover */
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
+  }
+  
+  .whatsapp-logo {
+    width: 28px; /* Tamaño del logo */
+    height: 28px;
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  
+  .whatsapp {
+    font-family: 'Questrial', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-top: 200px;
+    letter-spacing: 2px;
+  }
+  
+  .numero {
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+  
+  }
+  
+  
+  
+  .link2 {
+    text-align: center;
+    margin-left: 800px;
+    margin-top: -250px;
+    margin-bottom: 200px;
+    
+  
+  }

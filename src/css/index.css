@@ -714,200 +714,7 @@ margin-left: -150px;
   100% { transform: translateX(-100%); }
 }
 
-.contactame {
-  font-family: 'Questrial', sans-serif;
-  font-size: 35px;
-  color: rgba(255, 255, 255, 0.822);
-  font-weight: 500;
-}
 
-
-.lista-para{
-  font-family: 'Questrial', sans-serif;
-  font-size: 45px;
-  color: rgba(255, 255, 255, 0.822);
-  font-weight: 500;
-}
-
-.ultimo-titulo {
-  margin-top: 300px;
-  text-align: center;
-}
-
-
-
-
-.yellow-rectangle2 {
-  position: absolute;
-  background-color: rgba(255, 255, 0, 0);
-  width: 150px;
-  height: 720px;
-  margin-top: 4500px;
-  margin-left: 20px;
-}
-
-.yellow-rectangle2::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: -2px;
-  width: 1px;
-  height: 100%;
-  background: linear-gradient(to top, rgba(223, 238, 255, 0) 0%, #dfeeff6c 50%, rgba(223, 238, 255, 0) 100%);
-}
-
-
-.blue-rectangle2 {
-  position: relative;
-  background-color: rgba(0, 0, 255, 0);
-  height: 150px;
-  margin-top: -600px;
-}
-
-
-.blue-rectangle2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(to right, rgba(223, 238, 255, 0) 0%, #dfeeff73 50%, rgba(223, 238, 255, 0) 100%);
-}
-
-.green-rectangle2 {
-  position: relative;
-  background-color: rgba(0, 128, 0, 0);
-  height: 100px;
-  margin-top: -300px;
-}
-
-.green-rectangle2::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(to right, rgba(223, 238, 255, 0) 0%, #dfeeff73 50%, rgba(223, 238, 255, 0) 100%);
-}
-
-
-
-
-.linkedin {
-  font-family: 'Questrial', sans-serif;
-  font-size: 35px;
-  color: rgba(255, 255, 255, 0.822);
-  font-weight: 600;
-  margin-top: 70px;
-  letter-spacing: 2px;
-}
-
-.nombre {
-  font-family: 'Questrial', sans-serif;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 0.822);
-
-}
-
-
-
-.link1 {
-  text-align: center;
-  margin-left: -800px;
-
-}
-
-
-.linkedin-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0077b5; /* Color azul de LinkedIn */
-  color: white;
-  font-family: 'Questrial', sans-serif;
-  font-size: 20px; /* Tamaño de la fuente */
-  font-weight: 600;
-  padding: 15px 30px; /* Espaciado interno del botón */
-  border: none;
-  border-radius: 500px;
-  cursor: pointer;
-  letter-spacing: 1px; /* Espaciado entre letras */
-  text-decoration: none; /* Quitar subrayado del enlace */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 999; /* Traer el botón al frente */
-  position: relative; /* Necesario para que z-index funcione */
-}
-
-.linkedin-button:hover {
-  background-color: #0077B5; /* Color más oscuro al hacer hover */
-  transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
-}
-
-.linkedin-logo {
-  width: 28px; /* Tamaño del logo */
-  height: 28px;
-  margin-right: 10px; /* Espacio entre el logo y el texto */
-}
-
-.whatsapp-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #25D366; /* Color verde de WhatsApp */
-  color: white;
-  font-family: 'Questrial', sans-serif;
-  font-size: 20px; /* Tamaño de la fuente */
-  font-weight: 600;
-  padding: 15px 30px; /* Espaciado interno del botón */
-  border: none;
-  border-radius: 500px;
-  cursor: pointer;
-  letter-spacing: 1px; /* Espaciado entre letras */
-  text-decoration: none; /* Quitar subrayado del enlace */
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  z-index: 999; /* Traer el botón al frente */
-  position: relative; /* Necesario para que z-index funcione */
-}
-
-.whatsapp-button:hover {
-  background-color: #00a895; /* Color más oscuro al hacer hover */
-  transform: scale(1.05); /* Aumenta el tamaño ligeramente al hacer hover */
-}
-
-.whatsapp-logo {
-  width: 28px; /* Tamaño del logo */
-  height: 28px;
-  margin-right: 10px; /* Espacio entre el logo y el texto */
-}
-
-
-.whatsapp {
-  font-family: 'Questrial', sans-serif;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  margin-top: 70px;
-  letter-spacing: 2px;
-}
-
-.numero {
-  font-family: 'Questrial', sans-serif;
-  font-size: 25px;
-  color: rgb(255, 255, 255);
-  
-
-}
-
-
-
-.link2 {
-  text-align: center;
-  margin-left: 800px;
-  margin-top: -255px;
-
-}
 
 
 /* Footer Styles */
@@ -951,4 +758,14 @@ margin-left: -150px;
 
 .footer-text {
   font-size: 14px;
+}
+/* Agrega estas reglas a tu archivo CSS */
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
 }
