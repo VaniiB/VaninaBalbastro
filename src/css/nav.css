@@ -1,0 +1,92 @@
+.custom-navbar {
+  background-color: #0c1218; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  position: relative; /* Necesario para posicionar el pseudo-elemento */
+}
+
+.custom-navbar::after {
+  content: '';
+  position: absolute;
+  bottom: -1px; /* Ajusta aquí para alinear la línea */
+  left: 0;
+  width: 100%; /* Ancho completo */
+  height: 1px; /* Grosor de la línea */
+  background: linear-gradient(to right, rgba(223, 238, 255, 0) 0%, #DFEEFF 50%, rgba(223, 238, 255, 0) 100%); /* Degradado con transparencia al principio y al final */
+}
+.custom-navbar .navbar-brand {
+  color: #ffffff; /* Color de texto blanco */
+  font-family: 'Questrial', sans-serif; /* Fuente Gilroy */
+  font-weight: 200; /* Semi-bold */
+  display: flex;
+  align-items: baseline; /* Alinear verticalmente */
+  font-size: 15px;
+}
+
+.custom-navbar .navbar-brand .animated-initials {
+  font-size: 30px; /* Tamaño de fuente ajustable */
+  background-image: linear-gradient(to bottom, #4D3CFF, #0490FF); /* Degradado como color de fondo */
+  -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+  background-clip: text;
+  color: transparent; /* Oculta el color del texto */
+  margin-right: 20px; /* Espacio entre el logo y el texto */
+  position: relative; /* Posición relativa para el contenedor */
+  z-index: 1; /* Colocar encima de la sombra */
+  font-weight: 900; /* Semi-negrita */
+  
+}
+
+
+.custom-navbar .navbar-brand .animated-initials::before {
+  content: ''; /* Crear un pseudo-elemento */
+  position: absolute; /* Posición absoluta respecto al contenedor */
+  top: 50%; /* Alinear al centro vertical */
+  left: 50%; /* Alinear al centro horizontal */
+  transform: translate(-50%, -50%); /* Centrar el contenido */
+  width: calc(100% + 10px); /* Ancho extendido para el efecto */
+  height: calc(100% + 10px); /* Alto extendido para el efecto */
+  background: linear-gradient(to bottom, #4D3CFF, #0490FF); /* Degradado de arriba a abajo */
+  z-index: -1; /* Colocar detrás del logo */
+  border-radius: 80%; /* Forma de círculo */
+  filter: blur(20px); /* Desenfoque */
+  height: 30px;
+  width: 30px;
+}
+
+.custom-navbar .website-name {
+  font-size: 1rem; /* Tamaño de fuente ajustable */
+  font-weight: 300;
+  font-family: 'Questrial', sans-serif; /* Fuente Poppins */
+  text-decoration: none;
+  margin-left: 10px; /* Espacio a la izquierda */
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff; /* Color de texto blanco */
+  font-family: 'Questrial', sans-serif; /* Fuente Poppins */
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin-left: 30px;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #4570ff; /* Cambio de color al pasar el mouse */
+  font-weight: 600;
+}
+
+.custom-navbar .btn-primary {
+  background-image: linear-gradient(to right, #5236FF, #0094FF); /* Degradado azul */
+  color: #ffffff; /* Texto blanco */
+  font-family: 'Questrial', sans-serif; /* Fuente Poppins */
+  font-weight: 450;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.custom-navbar .btn-primary:hover {
+  opacity: 0.8; /* Opacidad al pasar el mouse */
+}
